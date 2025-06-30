@@ -15,6 +15,11 @@ Built as a hands-on way to understand:
 - Context retrieval and augmented generation
 - Multi-model LLM integration
 
+<p float="left">
+  <img src="https://i.postimg.cc/BvSYGJFT/simply-RAGv3-1.png" width="45%" />
+  <img src="https://i.postimg.cc/SKgZSHLw/simply-RAGv3-2.png" width="45%" />
+</p>
+
 ## Features
 
 - 📄 **Markdown File Support** - Upload and process `.md` files
