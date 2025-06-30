@@ -1,20 +1,11 @@
 # SimplyRAGv3 - Markdown Chat Assistant
 
-<div align="center">
-
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/streamlit-1.32.0-red.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-
-A simple RAG (Retrieval-Augmented Generation) implementation for learning purposes.
 
 > [!NOTE]
 > Coded to life with some help from Claude 4 Opus
-
-</div>
-
-## 📖 About
 
 SimplyRAGv3 is a learning project that demonstrates the core concepts of RAG (Retrieval-Augmented Generation) through a practical application. It allows you to upload Markdown documents and have intelligent conversations about their contents using various LLM backends.
 
