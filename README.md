@@ -1,4 +1,4 @@
-# SimplyRAGv3 - Markdown Chat Assistant
+# SimplyRAGv3
 
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/streamlit-1.32.0-red.svg)
@@ -15,7 +15,7 @@ Built as a hands-on way to understand:
 - Context retrieval and augmented generation
 - Multi-model LLM integration
 
-## ✨ Features
+## Features
 
 - 📄 **Markdown File Support** - Upload and process `.md` files
 - 🔍 **Semantic Search** - Find relevant content using vector embeddings
@@ -29,7 +29,7 @@ Built as a hands-on way to understand:
 - 🎛️ **Configurable Parameters** - Adjust chunk size, overlap, and retrieval count
 - 💬 **Chat Interface** - Clean Streamlit-based conversational UI
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -76,7 +76,7 @@ Built as a hands-on way to understand:
 
    The app will open automatically in your browser at `http://localhost:8501`
 
-## 📘 Usage
+## Usage
 
 1. **Upload a Markdown File**
    - Click the file uploader in the sidebar
@@ -97,36 +97,6 @@ Built as a hands-on way to understand:
 
 ## ⚙️ Configuration
 
-### Environment Variables
-
-Create a `.env` file with the following:
-
-```env
-# OpenAI Configuration
-OPENAI_API_KEY=sk-...
-OPENAI_MODEL=gpt-3.5-turbo
-
-# Google Gemini Configuration  
-GOOGLE_API_KEY=AI...
-GEMINI_MODEL=gemini-pro
-
-# GitHub Models Configuration
-GITHUB_TOKEN=ghp_...
-GITHUB_MODEL=gpt-4o-mini
-
-# LM Studio Configuration
-LM_STUDIO_ENDPOINT=http://localhost:1234/v1
-LM_STUDIO_MODEL=local-model-name
-
-# Embedding Configuration
-EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
-
-# Retrieval Configuration
-CHUNK_SIZE=500
-CHUNK_OVERLAP=50
-TOP_K_CHUNKS=3
-```
-
 ### Model Providers Setup
 
 <details>
@@ -134,7 +104,7 @@ TOP_K_CHUNKS=3
 
 1. Get API key from [OpenAI Platform](https://platform.openai.com/api-keys)
 2. Add to `.env`: `OPENAI_API_KEY=sk-...`
-3. Choose model: `gpt-3.5-turbo` or `gpt-4`
+3. Choose model
 </details>
 
 <details>
@@ -142,7 +112,7 @@ TOP_K_CHUNKS=3
 
 1. Get API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
 2. Add to `.env`: `GOOGLE_API_KEY=...`
-3. Default model: `gemini-pro`
+3. Default model
 </details>
 
 <details>
