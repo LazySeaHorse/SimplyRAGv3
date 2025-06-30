@@ -62,7 +62,7 @@ Built as a hands-on way to understand:
 
 4. **Set up environment variables**
    
-   Edit `.env` and add your API keys:
+   Rename `env` to `.env` and add your API keys:
    ```env
    OPENAI_API_KEY=your-openai-key
    GOOGLE_API_KEY=your-gemini-key
